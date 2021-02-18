@@ -1956,7 +1956,7 @@
 					"$(inherited)",
 					"-weak_framework",
 					XCTest,
-					"-weak-lswiftXCTest",
+					"-weak-lXCTestSwiftSupport",
 					"-Xlinker",
 					"-no_application_extension",
 				);

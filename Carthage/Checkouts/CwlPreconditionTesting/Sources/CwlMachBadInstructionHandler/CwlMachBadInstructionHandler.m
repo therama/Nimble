@@ -46,5 +46,9 @@
 		assert(false);
 		return KERN_FAILURE;
 	}
+
+	NDR_record_t mach_ndr_record(void) {
+		return NDR_record;
+	}
 	
 #endif

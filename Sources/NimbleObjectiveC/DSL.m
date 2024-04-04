@@ -68,27 +68,27 @@ NIMBLE_EXPORT NIMBLE_OVERLOADABLE id<NMBMatcher> NMB_beLessThanOrEqualTo(NSNumbe
     return [NMBObjCMatcher beLessThanOrEqualToMatcher:expectedValue];
 }
 
-NIMBLE_EXPORT id<NMBMatcher> NMB_beTruthy() {
+NIMBLE_EXPORT id<NMBMatcher> NMB_beTruthy(void) {
     return [NMBObjCMatcher beTruthyMatcher];
 }
 
-NIMBLE_EXPORT id<NMBMatcher> NMB_beFalsy() {
+NIMBLE_EXPORT id<NMBMatcher> NMB_beFalsy(void) {
     return [NMBObjCMatcher beFalsyMatcher];
 }
 
-NIMBLE_EXPORT id<NMBMatcher> NMB_beTrue() {
+NIMBLE_EXPORT id<NMBMatcher> NMB_beTrue(void) {
     return [NMBObjCMatcher beTrueMatcher];
 }
 
-NIMBLE_EXPORT id<NMBMatcher> NMB_beFalse() {
+NIMBLE_EXPORT id<NMBMatcher> NMB_beFalse(void) {
     return [NMBObjCMatcher beFalseMatcher];
 }
 
-NIMBLE_EXPORT id<NMBMatcher> NMB_beNil() {
+NIMBLE_EXPORT id<NMBMatcher> NMB_beNil(void) {
     return [NMBObjCMatcher beNilMatcher];
 }
 
-NIMBLE_EXPORT id<NMBMatcher> NMB_beEmpty() {
+NIMBLE_EXPORT id<NMBMatcher> NMB_beEmpty(void) {
     return [NMBObjCMatcher beEmptyMatcher];
 }
 
@@ -142,7 +142,7 @@ NIMBLE_EXPORT id<NMBMatcher> NMB_satisfyAllOfWithMatchers(id matchers) {
     return [NMBObjCMatcher satisfyAllOfMatcher:matchers];
 }
 
-NIMBLE_EXPORT NMBObjCRaiseExceptionMatcher *NMB_raiseException() {
+NIMBLE_EXPORT NMBObjCRaiseExceptionMatcher *NMB_raiseException(void) {
     return [NMBObjCMatcher raiseExceptionMatcher];
 }
 
